@@ -1,5 +1,5 @@
 {
-    "name": "sellerlabs/oauth-laravel",
+    "name": "artis-mosties/oauth-laravel",
     "type": "library",
     "description": "OAuth Service Provider for Laravel 4",
     "keywords": ["OAuth", "Lusitanian", "laravel", "php"],
@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.3",
-        "sellerlabs/oauth": "0.3.*"
+        "artis-mosties/oauth": "0.3.*"
     },
     "require-dev": {
         "illuminate/support": "~4"
