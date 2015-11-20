@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.3",
-        "artis-mosties/oauth": "0.3.*"
+        "artis-mosties/oauth": "0.3.*@dev"
     },
     "require-dev": {
         "illuminate/support": "~4"
