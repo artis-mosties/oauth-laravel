@@ -1,6 +1,6 @@
 <?php 
 
-return array( 
+return [
 	
 	/*
 	|--------------------------------------------------------------------------
@@ -11,22 +11,27 @@ return array(
 	/**
 	 * Storage
 	 */
-	'storage' => 'Session', 
+	'storage' => 'Session',
 
 	/**
 	 * Consumers
 	 */
-	'consumers' => array(
+	'consumers' => [
 
 		/**
 		 * Facebook
 		 */
-        'Facebook' => array(
-            'client_id'     => '',
-            'client_secret' => '',
-            'scope'         => array(),
-        ),		
+		'Facebook' => [
+			'client_id'     => '',
+			'client_secret' => '',
+			'scope'         => [],
+		],
 
-	)
+		'Twitter' => [
+			'client_id'     => '',
+			'client_secret' => '',
+		],
 
-);
+	]
+
+];

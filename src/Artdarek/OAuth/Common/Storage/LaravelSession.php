@@ -11,8 +11,7 @@ use Illuminate\Support\Facades\Session;
 /**
  * Stores a token in a Laravel session.
  */
-class LaravelSession implements TokenStorageInterface
-{
+class LaravelSession implements TokenStorageInterface {
 
     /**
      * @var string
